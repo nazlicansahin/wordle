@@ -1,0 +1,47 @@
+.keyBoard {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(31, 35, 35);
+    width: 530px;
+    height: 200px;
+}
+
+.table {
+    padding: 10px
+}
+
+.tableContainer {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(31, 35, 35);
+    width: 310px;
+    height: 330px;
+}
+
+.input {
+    background-color: #f4faf4;
+    border: 2px solid #d3d6da;
+    color: rgb(51, 47, 47);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 160px;
+}
+
+.inputContainer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateButton {
+    background-color: #538d4e;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

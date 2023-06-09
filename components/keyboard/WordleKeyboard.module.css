@@ -1,0 +1,21 @@
+.box {
+    width: 43px;
+    height: 58px;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #d3d6da;
+    border-radius: 5px;
+
+}
+
+.keyBoard {
+    display: inline-block;
+    width: 45px;
+    height: 58px;
+    margin: 0px 6px 6px 0px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+
+}

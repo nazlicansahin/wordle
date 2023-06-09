@@ -1,0 +1,11 @@
+.box {
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    border: 2px solid #d3d6da;
+    font-size: 32px;
+    font-weight: 750;
+    color: aliceblue;
+}
