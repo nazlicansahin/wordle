@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css"
 export default function Home() {
   //input controll
   const [isInputDisabled, setInputDisabled] = useState(false);
-  const [buttonValue, setButtonValue] = useState('CHECK')
+  const [buttonValue, setButtonValue] = useState('Tahmin Et')
   //Keyword
 
   const Keyword = [
@@ -29,7 +29,7 @@ export default function Home() {
 
   const [kw, setKw] = useState(Keyword)
   // is continue
-  const [game, setGame] = useState(true)
+  const [game, setGame] = useState(false)
   // set the random words here
   const gameWords = [
     "RADYO",
@@ -122,25 +122,37 @@ export default function Home() {
       setWordArray(updatedRows);
       setInputValue('');
       compareWords()
+      if (index == 5 && win == false) {
+        setGame(true)
+        setInputDisabled(true);
+        setButtonValue('Yeni Oyun')
+        setInputValue('Kaybettin! 😅')
+      }
+
     }
     if (inputValue == chosenWord) {
       setWin(true)
       setInputDisabled(true);
-      setButtonValue('NEW GAME')
-      setInputValue('You Win! 🥳')
+      setButtonValue('Yeni Oyun')
+      setInputValue('Kazandınn! 🥳')
 
     }
+
   };
 
   const clickHandler = () => {
-    if (win) {
+    if (game) {
+      const refresh = () => window.location.reload(true)
+      return refresh()
+    }
+    else if (win) {
       const refresh = () => window.location.reload(true)
       return refresh()
     }
 
     else {
       if (inputValue.length < 5) {
-        alert('kelime 5 harfli olmalı 😅')
+        alert('Girdiğin kelime 5 harfli olmalı 😅')
         setInputValue('')
       }
       else
