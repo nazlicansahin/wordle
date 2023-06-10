@@ -1,13 +1,13 @@
 # WORDLE
 <p float="left">
 <img src="1.png?raw=true"  height='300' >
-  <p float="left">Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle.  </p><p float="left"> It was bought by the New York Times Company in 2022, who has since maintained and published it. And I made a version of this game. </p>
+  <p float="left">Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle.  </p><p float="left"> It was bought by the New York Times Company in 2022, who has since maintained and published it. </p><p float="left">  And I made a version of this game. </p>
 </p>
 
-# FEATURES
+# Features
 
 <p float="left">
-<img src="2.png?raw=true"  height="300"> <p float="left"> Guessing: Whne you wr'te your guess and cl'ck the button, it writes to the boxes but you cant write more than 5 letters or you cant add less than 5 letters.</p>
+<img src="2.png?raw=true"  height="300"> <p float="left"> Guess: When you write your guess and click the button, </p><p float="left">it writes to the boxes but you cant write more than 5 letters or you cant add less than 5 letters.</p>
 </p>
 <p float="left">
 <img src="3.png?raw=true"  height="300">  <p float="left"> According your guess letter colors change on letter board and table. </p><p float="left"> If the word includes the letter, letter will be yellow if the letter in true place so it will be green.</p>
