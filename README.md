@@ -1,15 +1,23 @@
 # WORDLE
 
-![Alt text](1.png?raw=true "Optional Title")
+
 # FEATURES
-![Alt text](2.png?raw=true "Optional Title")
-![Alt text](3.png?raw=true "Optional Title")
-![Alt text](4.png?raw=true "Optional Title")
+<p float="left">
+<img src="1.png?raw=true"  height='300' >
+</p>
+<p float="left">
+<img src="2.png?raw=true"  height="300">
+</p>
+<p float="left">
+<img src="3.png?raw=true"  height="300"> 
+</p>
+<p float="left">
+<img src="4.png?raw=true"  height="300">
+</p>
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Requirements
 
 First, run the development server:
 
